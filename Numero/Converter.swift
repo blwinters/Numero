@@ -30,7 +30,7 @@ class Converter {
   func convert(_ number: Int) -> String {
     switch number {
     case 1:   return "I"
-//    case 2:   return "II"
+    case 2:   return "II"
     default:  return String(describing: number)
     }
   }
